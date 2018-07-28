@@ -60,7 +60,7 @@ struct Quick2DSizeT {
 
 	// filled with zero
 	Quick2DSizeT(size_type rows, size_type cols) {
-		this->data.resize(rows * cols, NOLABEL);
+		this->data.resize(rows * cols, size_type(NOLABEL));
 		this->cols = cols;
 	}
 

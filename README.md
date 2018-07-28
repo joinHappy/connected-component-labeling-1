@@ -1,2 +1,2 @@
-# connected-component-labeling
-A basic implementation of "one-component-at-a-time" connected-component labeling algorithm
+# Connected-component Labeling
+It is a one-header generic templated C++ library to find the connected-components in images.

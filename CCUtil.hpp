@@ -188,6 +188,9 @@ template<typename ImgDT, // the image data type (bool, char, int...)
 		// compute the number of connected components
 		size_type numOfCC = currentLabel - labelStart;
 		result_type result;
+		if(numOfCC == 0){
+			return result;
+		}
 		result.resize(numOfCC);
 
 		// scan labelStorage for result
